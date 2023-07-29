@@ -1,0 +1,10 @@
+.MainPage {
+    display: flex;
+    gap: 5rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+}

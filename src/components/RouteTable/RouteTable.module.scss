@@ -1,0 +1,9 @@
+.NavigationTable {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+tr {
+    cursor: pointer;
+}
